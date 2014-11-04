@@ -1,119 +1,81 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<title>Shiva naik | Web devoloper </title>
-	<script type="text/javascript" src="/home/abhijit/Documents/job/jquery.easing.min.js"></script>
-</head>
-<body>
-	<div id="container-fluid">
-		<h1 id="home">
-			<!--links-->
-			<link>
-			<a id="a1" href="#home"><img id="home1" src="http://www.iconsdb.com/icons/download/white/home-4-256.png">Home
-			</a>
-			</link>
-			<link2>
-				<a id="a2" href="#portfolio"><img id="home1" src                        ="http://www.iconsdb.com/icons/preview/white/document-xxl.png">Portfolio
-					</a>
-						<a id="a3" href="#about"><img id="home1" src="http://www.iconsdb.com/icons/preview/white/guest-xxl.png">About
-						</a>
-						<a id="a4" href="#contact"><img id="home1" src="http://flaticons.net/gd/makefg.php?i=icons/Mobile%20Application/Contact.png&r=255&g=255&b=255">Contact
-					</a>
-			</link2>
-						
-			<!--down header-->
-			<svg height="160" width="160">
-				<circle cx="70" cy="70" r="60" stroke="" stroke-width="5" fill="red" />
-			</svg>
-		</h1>
-	</div>
-</body>
+	<head>
+		<title>Shiva</title>
+		<!--font-->
+		<link href='http://fonts.googleapis.com/css?family=Open+Sans:300' rel='stylesheet' type='text/css'>
+		<link href='http://fonts.googleapis.com/css?family=Roboto+Slab:400,300|Open+Sans:300' rel='stylesheet' type='text/css'>
+	</head>
+	<body>
+	   <div class="container-fluid">
+	    <h1>
+            <div id="div1">
+            <a id="a1" href="#h1"><img id="home1" src="http://www.iconsdb.com/icons/download/white/home-4-256.png">Home</a>
+            <img id="home2" src="http://www.iconsdb.com/icons/preview/white/document-xxl.png"><a id="a2" href="#portfolio">Portfolio</a>
+            <img id="home3" src="http://www.iconsdb.com/icons/preview/white/guest-xxl.png"><a id="a2" href="#about">About</a>
+            <img id="home4" src="http://flaticons.net/gd/makefg.php?i=icons/Mobile%20Application/Contact.png&r=255&g=255&b=255"><a id="a2" href="#contact">Contact</a>
+   </div>
+        </h1>
+    </div>
+	</body>
 </html>
-
-
-
-<!--css hear-->
 <style>
 body{
-	background-color: red;
-	overflow: hidden;
+    overflow:hidden;    
 }
-
-#home{
-	height: 650px;
-	width: 115%;
-	background:url("http://www.swdaruba.com/assets/images/background-smallxx23.png");
-	background-size: 1480px;
-	margin-left: -36px;
-	margin-top: -8px;
+h1{
+    height: 800px;
+	width: 103%;
+	background:url("http://voss-photography.com/wp-content/uploads/2012/12/new-york-city-skyline-bei-nacht-brooklyn-bridge-panorama1.jpg");
+	background-size: cover;
+	margin-left: -8px;
+	margin-top: -40px; 
+	position:relative;
 }
-
-svg{
-    margin-top:170px;
-    margin-left:-300px;
-    position:absolute;
+a{
+    text-decoration:none;
+    color:#fff;
+    font-size:20px;
+    font-family: 'Open Sans', sans-serif;
+}
+#a1{
+    font-size:23px;
+   font-family: 'Open Sans', sans-serif;
 }
 #home1{
-	height: 30px;
+	height: 25px;
 	width: 25px;
-	margin-left: 100px;
-	margin-top: 6px;
+	margin-left: 50px;
+	margin-top: 50px;
+}
+#home2{
+	height: 25px;
+	width: 25px;
+	margin-top: 50px;
+	margin-left:630px;
 }
 
-#a1{
-	text-decoration: none;
-	color: #fff;
-	font-size: 28px;
-	margin-top: -10px;
-	position: relative;
-	transition: background-color 0.5s ease;
+#home3{
+	height: 25px;
+	width: 25px;
+	margin-top: 50px;
+	margin-left:50px;
+}
+#home4{
+	height: 25px;
+	width: 25px;
+	margin-top: 50px;
+	margin-left:50px;
 }
 
-#a2{
-	text-decoration: none;
-	color: #fff;
-	font-size: 28px;
-	margin-top: -10px;
-	position:relative;
-	transition: background-color 0.5s ease;
-}
-
-#a3{
-	text-decoration: none;
-	color: #fff;
-	font-size: 28px;
-	margin-top: -10px;
-	position: relative;
-	margin-left:-40px;
-	transition: background-color 0.5s ease;
-}
-
-#a4{
-	text-decoration: none;
-	color: #fff;
-	font-size: 28px;
-	margin-top: -8px;
-	position: relative;
-	margin-left:-40px;
-	transition: background-color 0.5s ease;
-}
-
-link2{
-    margin-left:520px;   
-}
-
-#a2{
-	transition: background-color 0.5s ease;
-}
-#a2:hover{ 
-	background-color: rgba(20,21,32,.6);
-}
+#:hover {
+    background-color: rgba(20,21,32,.6);
+}  
 </style>
 
-<!--javascript hear-->
 <script>
-$(document).ready(function(){
-  $('#a2').hover(
+    $(document).ready(function(){
+  $('div').hover(
     function(){
     $(this).addClass('active');
     },
@@ -121,4 +83,4 @@ $(document).ready(function(){
         $(this).removeClass('active');
     }
   );
-  </script>
+</script>
