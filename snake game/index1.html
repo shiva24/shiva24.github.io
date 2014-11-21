@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Snake Game</title>
+		<link rel="shortcut icon" href="https://cdn.tutsplus.com/mobile/uploads/legacy/Corona-SDK_Build-A-Snake-Game/2/2.png">
+	</head>
+	<body>
+		<div id="main"></div>
+		<a href="./index.html"><div id="div1">Start Game</div></a>
+		<a href="./help.html"><div id="div2">Help</div></a>
+		<a href="http://www.google.com"><div id="div3">Quite</div></a>
+	</body>
+</html>
+<style>
+	body{
+		background:url("./2.png");
+ 		 background-size: cover;
+ 		 display: block;
+	}
+	#main{
+		background: url("./1.png");
+		background-size: cover;
+		background-color: red;
+		height: 500px;
+		width: 460px;
+		border-radius: 2px;
+		border:1px solid black;
+		margin-top: 90px;
+		margin-left: 290px;
+
+	}
+	#div1{
+		height:38px;
+		width: 275px;
+		background: linear-gradient(#9FC162 5%, #9FC199 100%);
+		border-radius: 5px;
+		margin-left: 385px;
+		margin-top: -250px;
+		text-align: center;
+		font-size: 26px;
+		transition: 0.50s ease;
+	}
+	#div2{
+		height:38px;
+		width: 275px;
+		background: linear-gradient(#9FC162 5%, #9FC199 100%);
+		border-radius: 5px;
+		margin-left: 385px;
+		margin-top:28px;
+		text-align: center;
+		font-size: 26px;
+		transition: 0.50s ease;
+	}
+	#div3{
+		height:38px;
+		width: 275px;
+		background: linear-gradient(#9FC162 5%, #9FC199 100%);
+		border-radius: 5px;
+		margin-left: 385px;
+		margin-top: 30px;
+		text-align: center;
+		font-size: 26px;
+		transition: 0.10s ease;
+	}	
+	#div1:hover{
+		background: linear-gradient(#9FC199 5%, #9FC162 100%);
+		transition: 0.10s ease;
+		color: yellow;
+	}
+	#div2:hover{
+		background: linear-gradient(#9FC199 5%, #9FC162 100%);
+		transition: 0.10s ease;
+		color: yellow;
+	}
+	#div3:hover{
+		background: linear-gradient(#9FC199 5%, #9FC162 100%);
+		transition: 0.10s ease;
+		color: yellow;
+	}
+	a{
+		text-decoration: none;
+		color: #fff;
+	}
+	a:hover{
+		color: yellow;
+	}
+</style>
