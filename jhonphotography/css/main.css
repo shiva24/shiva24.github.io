@@ -1,0 +1,382 @@
+@import url(http://fonts.googleapis.com/css?family=Lobster);
+@import url(http://fonts.googleapis.com/css?family=Lato:300,400,700);
+@import url(http://fonts.googleapis.com/css?family=Lobster);
+@import url(www.iconian.com);
+
+	#head{
+	font-size: 36px;
+	letter-spacing: .7px;
+	font-family: 'Lobster', cursive;
+	margin-left: 5%;
+	margin-top: 36.5%;
+	color: #fff;
+	opacity: .2;
+	text-shadow:0px 5px 4px #000;
+	position: absolute;
+	}
+	#head2{
+	font-size: 30px;
+	letter-spacing: -1px;
+	font-family: 'Lobster', cursive;
+	margin-left: .3%;
+	margin-top: 36%;
+	color: #ff9;
+	font-weight: normal;
+	opacity: .5; 
+	text-shadow:0px 4px 4px #000;
+	position: absolute;
+	}
+	.menu{
+		position: absolute;
+	}
+	#googleMap{
+		margin-left: 9.1%;
+		margin-top: 13.1%;
+		border-radius: 8px;
+		background:url("http://cms.interlogy.com/uploads/image_upload/image_upload/global/6854_jotform_contact_form.png"); ;
+		position: absolute;
+		box-shadow: 3px 3px 10px 3px #2c3e50;
+	}
+	#map{
+    height : 561px;
+    margin-left : -1.1%;
+    margin-top : 3.8%;
+    position: absolute;
+	}
+	    /* Section 1
+	 * --------------------------------------- */
+	#section1 h1{
+		color: #444;zzzz
+	}
+	#section1 p{
+		color: #333;
+		color: rgba(0,0,0,0.3);
+	}
+	#section1 img{
+		margin: 20px 0;
+		opacity: .9;
+	}
+
+	/* Section 2
+	 * --------------------------------------- */
+	#section2 h1,
+	#section2 p{
+		z-index: 3;
+	}
+	#section2 p{
+	}
+
+	#section2 #colors{
+		right: 60px;
+		bottom: 0;
+		position: absolute;
+		height: 413px;
+		width: 258px;
+		background-image: url(imgs/colors.gif);
+		background-repeat: no-repeat;
+	}
+
+	/* Section 3
+	 * --------------------------------------- */
+	#section3 #colors{
+		left: 60px;
+		bottom: 0;
+	}
+	#section3 p{
+		color: #757575;
+	}
+
+	#colors2,
+	#colors3{
+		position: absolute;
+		height: 163px;
+		width: 362px;
+		z-index: 1;
+		background-repeat: no-repeat;
+		left: 0;
+		margin: 0 auto;
+		right: 0;
+	}
+	#colors2{
+		background-image: url(imgs/colors2.gif);
+		top:0;
+	}
+	#colors3{
+		background-image: url(imgs/colors3.gif);
+		bottom:0;
+	}
+
+	/* Section 4
+
+	/* Overwriting fullPage.js tooltip color
+	* --------------------------------------- */
+	#pp-nav.custom .pp-tooltip{
+		color: #AAA;
+	}
+	#markup{
+		display: block;
+		width: 450px;
+		margin: 20px auto;
+		text-align: left;
+	}
+
+	#text{
+		position: absolute;
+		margin-top: 20%;
+		color: red;
+	}
+	.section{
+			text-align:center;
+		}
+		#myVideo{
+			position: absolute;
+		}
+		/* Layer with position absolute in order to have it over the video
+		* --------------------------------------- */
+		#section1 .layer{
+			position: abstype="text/javascript" olute;
+			z-index: 5;
+			width: 100%;
+			left: 0;
+			top: 43%;
+			height: 100%;
+		}
+
+		#section1 h1{
+			color:#fff;
+		}
+
+		#infoMenu li a{
+			color: #fff;
+		}
+
+		ul li ul {
+			display: none;
+		}
+
+		#mail1{
+		position: absolute;
+		color: rgb(148, 142, 100);
+		margin-top: 13.6%;
+		font-weight: normal;
+		letter-spacing: 1.5px;
+		font-family: sans-serif;
+		font-size: 23px;
+		margin-left: 36.3%;
+		}
+		#map1{
+			height : 68px;
+			width: 68px;
+			left: 35.6%;
+			top:44%;
+		    position: absolute;
+		    background: url(https://cdn4.iconfinder.com/data/icons/flaten/512/left-512.png);
+		    background-size: cover;
+		}
+		#map2{
+		position: absolute;
+		color: #1E75BC;
+		margin-top: 24%;
+		font-weight: normal;
+		font-family: sans-serif;
+		font-size: 25px;
+		margin-left: 40.6%;
+		}
+		#mailico{
+			height : 68px;
+			width: 68px;
+			left: 59.8%;
+			top:44%;
+		    position: absolute;
+		}
+		#mail2{
+		position: absolute;
+		color: #1E75BC;
+		margin-top: 24%;
+		font-weight: normal;
+		font-family: sans-serif;
+		font-size: 25px;
+		margin-left: 49.2%;
+		}
+		#mail{
+		position: absolute;
+		color: #996F33;
+		margin-top: 34.6%;
+		font-weight: normal;
+		letter-spacing: 1.5px;
+		font-family: sans-serif;
+		font-size: 23px;
+		margin-left: 41%;
+		}
+		#fb{
+			height : 68px;
+			width: 68px;
+			left: 40.5%;
+			top:73%;
+		    position: absolute;
+		    background: url(http://demiblog.info/wp-content/uploads/2012/06/facebook-logo-square-webtreatsetc-e1338718281258.png);
+		    background-size: cover;
+		}
+		#gpl{
+			height : 68px;
+			width: 68px;
+			left: 45.5%;
+			top:73%;
+		    position: absolute;
+		    background: url(http://www.barunglandcare.org.au/Resources/Pictures/Logos/googleplus-square.png);
+		    background-size: cover;
+		}
+		#twt{
+			height : 68px;
+			width: 68px;
+			left: 50.5%;
+			top:73%;
+		    position: absolute;
+		    background: url(http://www.stickyreaders.com/wp-content/uploads/2012/06/099702-glossy-waxed-wood-icon-social-media-logos-twitter-logo-square.png);
+		    background-size: cover;
+		}
+		#skp{
+			height : 68px;
+			width: 68px;
+			left: 55.5%;
+			top:73%;
+		    position: absolute;
+		    background: url(http://cdn.mysitemyway.com/etc-mysitemyway/webtreats/assets/posts/127/icons/skype-s.png);
+		    background-size: cover;
+		}
+		#fb:hover{
+				box-shadow: 0 0 20px #000;
+				border-radius: 10px;
+		}
+		#gpl:hover{
+				box-shadow: 0 0 20px #000;
+				border-radius: 10px;
+		}
+		#twt:hover{
+				box-shadow: 0 0 20px #000;
+				border-radius: 10px;
+		}
+		#skp:hover{
+				box-shadow: 0 0 20px #000;
+				border-radius: 10px;
+		}
+
+		/*gallery*/
+
+		#box1 {
+		  float: left;
+		  margin: 5px;
+		  margin-top: 4%;
+		  margin-left: 1.2%;
+		  padding: 5px;
+		  width: 420px;
+		  height: 250px;
+		  border-radius: 5px;
+		  box-shadow: 0 0 30px #fff;
+		} 
+		#box2 {
+		  float: left;
+		  margin: 5px;
+		  margin-top: 4%;
+		  margin-left: 1.2%;
+		  padding: 5px;
+		  width: 420px;
+		  height: 250px;
+		  border-radius: 5px;
+		  box-shadow: 0 0 30px #fff;
+		} 
+		#box3 {
+		  float: left;
+		  margin: 5px;
+		  margin-top: 4%;
+		  margin-left: 1.2%;
+		  padding: 5px;
+		  width: 420px;
+		  height: 250px;
+		  border-radius: 5px;
+		  box-shadow: 0 0 30px #fff;
+		} 
+		#box4 {
+		  float: left;
+		  margin: 5px;
+		  margin-top: 1.2%;
+		  margin-left: 1.2%;
+		  padding: 5px;
+		  width: 420px;
+		  height: 250px;
+		  border-radius: 5px;
+		  box-shadow: 0 0 30px #fff;
+		}  
+		#box5 {
+		  float: left;
+		  margin: 5px;
+		  margin-top: 1.2%;
+		  margin-left: 1.2%;
+		  padding: 5px;
+		  width: 420px;
+		  height: 250px;
+		  border-radius: 5px;
+		  box-shadow: 0 0 30px #fff ;
+		}
+		#box6 {
+		  float: left;
+		  margin: 5px;
+		  margin-top: 1.2%;
+		  margin-left: 1.2%;
+		  padding: 5px;
+		  width: 420px;
+		  height: 250px;
+		  border-radius: 5px;
+		  box-shadow: 0 0 30px #fff;
+		}
+		#box1:hover{
+			box-shadow: 0 0 40px #000;
+		}
+		#box2:hover{
+			box-shadow: 0 0 40px #000;
+		}
+		#box3:hover{
+			box-shadow: 0 0 40px #000;
+		}
+		#box4:hover{
+			box-shadow: 0 0 40px #000;
+		}
+		#box5:hover{
+			box-shadow: 0 0 40px #000;
+		}
+		#box6:hover{
+			box-shadow: 0 0 40px #000;
+		}
+
+		/*about*/
+		#about{
+			height: 604px;
+			margin-top:4%;
+			margin-left: -81.3%;
+			border-radius: 3px;
+			box-shadow: 0 0 120px #000;
+		}
+		#aboutme{
+			margin-top: -42%;
+			margin-left: 23%;
+			color: #800000;
+			text-shadow:1px .1px .3px #eee;
+			text-decoration: underline;
+			letter-spacing: 3.5px;
+			font-family: 'Lobster', cursive;
+			position: absolute;
+		}
+		#talk{
+			margin-top: -38%;
+			margin-left: 23%;
+			letter-spacing: 2.7px;
+			font-family:sans-serif;
+			font-size: 23px;
+			position: absolute;
+		}
+		#talk2{
+			letter-spacing: 2.7px;
+			font-family: sans-serif;
+			font-size: 23px;
+			position: absolute;
+		}

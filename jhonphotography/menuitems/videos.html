@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<title>Wedding Gallery</title>
+	<link rel="shortcut icon" href="http://icons.iconarchive.com/icons/martz90/circle/512/camera-icon.png">
+	<link rel="stylesheet" type="text/css" href="examples/css/jquery.pagepiling.css" />
+	<link rel="stylesheet" type="text/css" href="examples/css/style.css" />
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+	<script type="text/javascript" src="examples/js/jquery.pagepiling.min.js"></script>
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+<script type="text/javascript" src="jquery.easing.1.3.js"></script>
+
+	<link rel="stylesheet" type="text/css" href="../css/normalize.css" />
+	<link rel="stylesheet" type="text/css" href="../css/demo.css" />
+	<link rel="stylesheet" type="text/css" href="../css/component.css" /> 
+	<script src="../js/modernizr.custom.25376.js"></script>
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|Roboto' rel='stylesheet' type='text/css'>
+	<script src="http://maps.googleapis.com/maps/api/js"></script>
+	<script type="text/javascript">
+		$(document).ready(function() {
+			/*
+			* Plugin intialization
+			*/
+	    	$('#pagepiling').pagepiling({
+	          	direction: 'horizontal',
+	    		menu: '#menu',
+	    		anchors: ['page1', 'page2'],
+			    sectionsColor: ['white', '#006eee'],
+			    navigation: {
+			    	'position': 'right',
+			   		'tooltips': ['Images', 'Videos']
+			   	},
+			    afterRender: function(){
+			    	$('#pp-nav').addClass('custom');
+			    },
+			    afterLoad: function(anchorLink, index){
+			    	if(index>1){
+			    		$('#pp-nav').removeClass('custom');
+			    	}else{
+			    		$('#pp-nav').addClass('custom');
+			    	}
+			    }
+			});
+	    });
+    </script>
+
+</head>
+<body>
+	<ul id="menu">
+		<div id="perspective" class="perspective effect-movedown">
+			<div class="container" style="height: 100%;">
+				<div class="wrapper"><!-- wrapper needed for scroll -->
+					<!-- Top Navigation -->
+					<div class="main clearfix">
+						<div class="column">
+							<p style="margin-top:-45.6%;"><button title="Main Menu" id="showMenu"><img id="icn"src="http://www.sidetrack.nu/wp-content/uploads/2014/07/menu-icon.png" />MENU</button></p>
+							<a href="../johnphotography.com.html" style="margin-top:-7.5%;margin-left:25%;position:absolute;" title="Home" href="#"><p><button id="showMenu2">Home</button></p></a>
+							<a style="margin-top:-4.6%;margin-left:30%;position:absolute;" title="Images" href="#page1"><p><button id="showMenu3">Images</button></p></a>
+							<a style="margin-top:-5.5%;margin-left:45%;position:absolute;" title="Videos" href="#page2"><p><button id="showMenu4">Videos</button></p></a>
+						</div>
+						
+					</div><!-- /main -->
+				</div><!-- wrapper -->
+			</div>
+			<!--<h1 id="head">Welcome To John Photography</h1>
+            <h1 id="head2">Nurturing & Growing The Minds Of Awesome Photography......</h1>	 /container -->
+			<nav class="outer-nav top horizontal" style="font-family:font-family: 'Roboto', sans-serif;">
+				<a id="aa" href="engagement.html">Engagement Gallery</a>
+				<a id="aa" href="wedding.html">Wedding Gallery</a>
+				<a id="aa" href="childrens.html">Childrens Gallery</a>
+				<a id="aa" href="family.html">Family Gallery</a>
+				<a id="aa" href="summer.html">Summer Gallery</a>
+				<a id="aa" href="celebration.html">Celebrations Gallery</a>
+				<a id="aa" href="nature.html">Nature Gallery</a>
+				<a id="aa" href="videos.html">Quadcopter Videos</a>
+			</nav>
+		</div><!-- /perspective -->
+	<script src="../js/classie.js"></script>
+	<script src="../js/menu.js"></script>
+	</ul>
+
+	<div id="pagepiling">
+
+	<div class="section" id="section4">
+			<video width="980" controls style="margin-top:4%">
+			  <source src="http://r6---sn-aigllnlr.googlevideo.com/videoplayback?ms=au&fexp=907263%2C912150%2C912733%2C927622%2C927907%2C934961%2C9406009%2C943917%2C947225%2C948124%2C948307%2C952302%2C952605%2C952612%2C952901%2C955301%2C957201%2C959701&nh=IgpwcjAzLmxocjE0KgkxMjcuMC4wLjE&ip=146.185.29.13&pl=24&itag=22&ratebypass=yes&mt=1423761759&dur=248.081&id=o-ADUQXe0aBhNIuUAKYpAu8DWMA6U5EUE9gw5M1d-lNW9y&key=yt5&upn=RydREvB_Yps&signature=A42D5C836C92266261FAA87280FF8801D562F266.5F9E739917AEF61E1064263780138B7BE11765B2&initcwndbps=1692500&ipbits=0&sparams=dur%2Cid%2Cinitcwndbps%2Cip%2Cipbits%2Citag%2Cmm%2Cms%2Cmv%2Cnh%2Cpl%2Cratebypass%2Csource%2Cupn%2Cexpire&sver=3&mv=m&expire=1423785396&mm=31&source=youtube&title=My+Quadcopter+filmed+a+car+crash+take+place+while+flying+at+Lake+Logan+State+Park." type="video/mp4">
+			  <source src=".ogg" type="video/ogg">
+			</video>
+		</div>
+</body>
+</html>

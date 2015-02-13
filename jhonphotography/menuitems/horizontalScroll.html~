@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+
+	<link rel="stylesheet" type="text/css" href="examples/js/jquery.pagepiling.css" />
+	<link rel="stylesheet" type="text/css" href="examples/css/examples.css" />
+	<link rel="stylesheet" type="text/css" href="examples/css/jquery.pagepiling.css" />
+
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+
+	<script type="text/javascript" src="examples/js/jquery.pagepiling.min.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function() {
+			/*
+			* Plugin intialization
+			*/
+	    	$('#pagepiling').pagepiling({
+	          	direction: 'horizontal',
+	    		menu: '#menu',
+	    		anchors: ['page1', 'page2', 'page3', 'page4'],
+			    sectionsColor: ['white', '#ee005a', '#2C3E50', '#39C'],
+			    navigation: {
+			    	'position': 'right',
+			   		'tooltips': ['Page 1', 'Page 2', 'Page 3', 'Pgae 4']
+			   	},
+			    afterRender: function(){
+			    	$('#pp-nav').addClass('custom');
+			    },
+			    afterLoad: function(anchorLink, index){
+			    	if(index>1){
+			    		$('#pp-nav').removeClass('custom');
+			    	}else{
+			    		$('#pp-nav').addClass('custom');
+			    	}
+			    }
+			});
+	    });
+    </script>
+
+
+    <style>
+	#section1 img{
+		margin: 20px 0;
+		opacity: 0.7;
+	}
+	/* colors
+	 * --------------------------------------- */
+	#colors2,
+	#colors3{
+		position: absolute;
+		height: 163px;
+		width: 362px;
+		z-index: 1;
+		background-repeat: no-repeat;
+		left: 0;
+		margin: 0 auto;
+		right: 0;
+	}
+	#colors2{
+		background-image: url(https://m.ak.fbcdn.net/sphotos-d.ak/hphotos-ak-xpf1/v/t1.0-9/p480x480/1604400_385328991645033_7260701180834977167_n.jpg?oh=11a126d17ee123f9f64b43cfdd25ec12&oe=554FB006&__gda__=1428193921_61f8e32bd9c2c663d61cfa89cb009c83);
+		top:0;
+	}
+	#colors3{
+		background-image: url(https://m.ak.fbcdn.net/sphotos-d.ak/hphotos-ak-xpf1/v/t1.0-9/p480x480/1604400_385328991645033_7260701180834977167_n.jpg?oh=11a126d17ee123f9f64b43cfdd25ec12&oe=554FB006&__gda__=1428193921_61f8e32bd9c2c663d61cfa89cb009c83	);
+		bottom:0;
+	}
+
+
+	/* Overwriting fullPage.js tooltip color
+	* --------------------------------------- */
+	#pp-nav.custom .pp-tooltip{
+		color: #AAA;
+	}
+
+</style>
+
+</head>
+<body>
+	<ul id="menu">
+		<li data-menuanchor="page1" class="active"><a href="#page1">Page 1</a></li>
+		<li data-menuanchor="page2"><a href="#page2">Page 2</a></li>
+		<li data-menuanchor="page3"><a href="#page3">Page 3</a></li>
+	</ul>
+
+
+	<div id="pagepiling">
+	    <div class="section" id="section1">
+	    	<img src="https://m.ak.fbcdn.net/sphotos-d.ak/hphotos-ak-xfp1/v/t1.0-9/p261x260/1655913_410496662457736_5954096720400401384_n.jpg?oh=763781bb28f36d9224533d7ae62a6eef&oe=5551B770&__gda__=1433097730_5455bb99bbbfd46d4757ae238633b146" alt="pagePiling" />
+			<br />
+
+	    	<h1>Horizontal Scroll</h1>
+			<p>pagePiling does it easy for you!</p>
+
+	    </div>
+	    <div class="section">
+	    	<div class="intro">
+	    		<h1>Simple to use</h1>
+	    		<p>Just use the option direction: 'horizontal' to have it working!</p>
+	    	</div>
+	    </div>
+	    <div class="section" id="section3">
+	    	<div class="intro">
+	    		<h1>Isn't it great?</h1>
+	    		<p>Just as you expected!</p>
+	    		<div id="colors2"></div>
+	    		<div id="colors3"></div>
+	    	</div>
+	    </div>
+	</div>
+
+</body>
+</html>
